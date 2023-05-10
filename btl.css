@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.name_banner{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(247, 247, 247);
+    font-family: 'Crimson Text', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.header{
+    background-color: rgb(43, 172, 215);
+    width: 98%;
+    text-align: center;
+    margin: 15px 10px 15px 10px;
+}
+.hl1{
+    color: azure;
+    background-color: rgb(23, 4, 166);
+    border: 1px blue dashed;
+    width: 550px; height: 50px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 18px;
+    padding: w0px 15px 16px 15px 16px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.root>li{
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+}
+.root>li>a{
+    text-decoration: none;
+    color: rgb(1, 9, 9);
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+}
+.menu_kk{
+    width: 98%;
+    height: 50px;
+    background-color: rgb(220, 139, 139);
+    margin: 0px auto;
+}
+.root>li>a:hover{background-color: rgb(83, 76, 226);
+    color: chartreuse;
+    transform: ease-in 0.40;
+    font-weight: bold;
+}
+.submenu{
+    width: 200px;
+    background-color: rgb(33, 238, 50);
+    min-height: 80px;
+    display: none;
+    position: absolute;
+}
+.submenu>li{list-style: none;}
+.submenu>li>a{
+    text-transform: none;
+    text-decoration: none;
+    color: rgb(246, 246, 238);
+    border: 1px solid #5add09;
+    line-height: 40px;
+    text-align: 16px;
+}
+.root>li:hover .submenu{
+display: block;
+background-color: #2ae324;
+color: rgb(249, 249, 249);
+transform: ease-im 0,40s;
+
+}
+
+.submenu>li>a:hover{
+    background-color: rgb(42, 121, 200);
+    color: rgb(245, 247, 245);
+    transform:  ease-im 0,40s;
+}
+
